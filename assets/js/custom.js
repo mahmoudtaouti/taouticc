@@ -217,7 +217,7 @@ $(document).ready(function($) {
             type:'image',
             fixedContentPos: false,
             gallery: { enabled:true },
-            removalDelay: 300,
+            removalDelay: 200,
             mainClass: 'mfp-fade',
             callbacks: {
                 // This prevents pushing the entire page to the right after opening Magnific popup image

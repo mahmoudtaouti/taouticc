@@ -385,10 +385,13 @@ B. Helpers
 .ts-background {
     bottom: 0;
     left: 0;
+    right:0;
+    top:0;
     height: 100%;
+    width: 100%;
     overflow: hidden;
     position: absolute;
-    width: 100%;
+
     z-index: -2;
 }
 
@@ -1571,8 +1574,8 @@ form.ts-labels-inside-input .form-group label.focused,
     flex-direction: column;
     justify-content: center;
     z-index: 1;
-    transform: scale(1.2);
-    transition: .6s ease;
+    transform: scale(1.01);
+    transition: .1s ease;
     opacity: 0;
 }
 
@@ -1582,7 +1585,7 @@ form.ts-labels-inside-input .form-group label.focused,
 }
 
 .ts-gallery .ts-gallery__item:hover img {
-    transform: scale(1.3) rotate(-9deg);
+    transform: rotate(-1deg);
 }
 
 .ts-gallery .ts-gallery__item h4 {
@@ -1844,6 +1847,9 @@ body.loading-done #ts-hero.ts-animate-hero-items .ts-social-icons {
 /*-------------------------------------------
   -- Navbar
 -------------------------------------------*/
+#logo-top{
+    padding: 10px;
+}
 
 .navbar {
     font-size: .875rem;
